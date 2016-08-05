@@ -24,5 +24,6 @@
 })();
 
 function launchGoogle() {
-    cordova.InAppBrowser.open("http://www.google.com","_blank","location=yes")
+    alert("launchGoogle()");
+    cordova.InAppBrowser.open("http://www.google.com", "_blank", "location=yes");
 }
