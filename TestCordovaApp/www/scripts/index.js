@@ -24,6 +24,12 @@
 })();
 
 function launchGoogle() {
-    alert("launchGoogle()");
-    cordova.InAppBrowser.open("http://www.google.com", "_blank", "location=yes");
+    try {
+        alert("launchGoogle()");
+        cordova.InAppBrowser.open("http://www.google.com", "_blank", "location=yes");
+    }
+    catch(err)
+    {
+        alert("Plugin Error - " + err.message);
+    }
 }
