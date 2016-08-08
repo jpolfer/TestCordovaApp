@@ -26,6 +26,7 @@
 function launchGoogle() {
     try {
         alert("launchGoogle()");
+        alert("cordova :" + cordova);
         cordova.InAppBrowser.open("http://www.google.com", "_blank", "location=yes");
     }
     catch(err)
