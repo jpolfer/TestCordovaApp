@@ -111,4 +111,5 @@
   </platform>
   
   <plugin name="cordova-plugin-inappbrowser" spec="1.0.1" source="pgb" />
+  <plugin name="cordova-plugin-splashscreen" />
 </widget>
